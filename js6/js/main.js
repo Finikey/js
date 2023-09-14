@@ -18,7 +18,7 @@ let news = [
     {
         id:2,
         name: 'Едем за машиной',
-        author: 'Athur',
+        author: 'Arthur',
         date:'21.08.23',
         text:'Завтра выезжаем за новой машиной'
     },
