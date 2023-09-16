@@ -1,0 +1,248 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+    .textarea{
+    color: black;
+    font-size: 20px;
+    outline: none;
+    /* border: none; */
+    padding: 10px 25px;
+    }
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+}
+a:hover,
+a:focus,
+a:active{
+    transition: 0.5s;
+    /* transform: rotate(9999999deg); */
+    transform: scale(1.1);
+
+}
+
+.hub{
+    color: #ffa500;
+}
+span{
+    text-align: center;
+    color: #ffa500;
+    /* padding-left: 5px; */
+    background: #000;
+    padding: 5px;
+    border-radius: 10px;
+}
+.on{
+   color: white;
+}
+
+.box_list{
+    padding-top: 15px;
+    justify-content: center;
+display: flex;
+flex-wrap: wrap;
+gap: 25px;
+}
+
+.box{
+
+    background: #ffa500;
+border: 5px solid black;
+padding: 50px;
+text-align: center;
+align-items: center;
+}
+
+.ssilka{
+    padding: 50px;
+        font-size: 30px;
+    color: black;
+    text-decoration:none;
+    /* width: 300px; */
+    display: flex;
+    justify-content: center;
+    }
+    /* a{
+        text-decoration:none;
+        color: black;
+    } */
+    /* a:hover,
+    a:focus,
+    a:active{
+    transition: 0.5s;
+    color: aqua;
+    } */
+    
+    .img{
+        width: 100%;
+        height: 100%;
+    } 
+    
+    .center{
+        padding-top: 50px;
+        align-items: center;
+        text-align: center;
+    }
+    .box_list{
+        display: flex;
+        margin: 0 auto;
+        gap: 25px;
+        flex-direction: column;
+        justify-content: center;
+        width: 1000px;
+    }
+    
+    .news_card{
+        border: 1px solid black;
+        border-radius: 25px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding: 20px;
+    }
+    .namedate{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    }
+    .opasitytext{
+    opacity: 50%;
+    }
+    p{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    }
+    .authorname{
+    font-size: 22px;
+    font-weight: bold;
+    }
+    
+    h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    }
+/*  */
+
+.container{
+    margin: 0 auto;
+    padding: 0 auto;
+width: 1400px;
+}
+.center{
+padding-top: 50px;
+align-items: center;
+text-align: center;
+}
+.box_list{
+display: flex;
+margin: 0 auto;
+gap: 25px;
+flex-direction: column;
+justify-content: center;
+width: 1000px;
+padding: 25px;
+}
+
+.title{
+padding: 25px;
+text-align: center;
+font-family: 'clother';
+font-family: 'Montserrat', sans-serif;
+}
+
+.news_card{
+border: 1px solid black;
+border-radius: 25px;
+display: flex;
+gap: 10px;
+flex-direction: column;
+padding: 20px;
+}
+.namedate{
+align-items: center;
+display: flex;
+justify-content: space-between;
+}
+.opasitytext{
+opacity: 50%;
+}
+p{
+font-size: 20px;
+}
+.authorname{
+font-size: 20px;
+font-weight: bold;
+color: blueviolet;
+opacity: 70%;
+}
+
+h3{
+font-size: 32px;
+font-family: 'Montserrat', sans-serif;
+font-weight: bolder;
+}
+
+.text{
+font-family: 'clother';
+font-size: 24px;
+}
+.namenews{
+font-family: 'clother';
+}
+
+.forma{
+gap: 15px;
+width: 400px;
+display: flex;
+flex-direction: column;
+font-family: 'Montserrat', sans-serif;
+font-weight: bolder;
+margin-top: 30px;
+}
+.block_form{
+display: flex;
+justify-content: center;
+padding-bottom: 50px;
+}
+
+input{
+border: 1px solid black;
+border-radius: 15px;
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+outline: none;
+padding: 7px 15px;
+}
+textarea{
+    border: 1px solid black;
+    border-radius: 15px;
+    font-family: 'clother';
+    font-size: 20px;
+    outline: none;
+    padding: 7px 15px;
+}
+label{
+font-size: 25px;
+}
+
+
+.button{
+    
+    padding: 7px 15px;
+    color: white;
+    background-color: black;
+        border: 1px solid black;
+        border-radius: 15px;
+        /* font-family: 'clother'; */
+        font-size: 20px;
+        outline: none;
+        font-family: 'Montserrat', sans-serif;
+}
