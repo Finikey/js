@@ -56,4 +56,37 @@ document.addEventListener('keydown', function(event){
 
 })
 
+document.addEventListener('keyup', function(event){
+    if(event.key == 'r'){
+        document.body.style.background= 'white'
+        // box.style.background= 'white'
+    }
+})
 
+document.addEventListener('keydown', function(event){
+    if(event.key == 'g'){
+        body.style = 'background: green'
+        // box.style = 'background: green'
+    }
+})
+
+document.addEventListener('keyup', function(event){
+    if(event.key == 'g'){
+        document.body.style.background= 'white'
+        // box.style.background= 'white'
+    }
+})
+
+document.addEventListener('keydown', function(event){
+    if(event.key == 'b'){
+        body.style = 'background: blue'
+        // box.style = 'background: blue'
+    }
+})
+
+document.addEventListener('keyup', function(event){
+    if(event.key == 'b'){
+        document.body.style.background= 'white'
+        // box.style.background= 'white'
+    }
+})
